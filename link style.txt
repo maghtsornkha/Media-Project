@@ -1,0 +1,7 @@
+sass => for css
+sass --watch ./dev/sass/index.sass (wait preview)
+sass --watch ./dev/sass/index.sass ./assets/css/index.css (create compile )
+
+pug => for html
+pug -w ./dev/pug/index.pug -o ./	(wait preivew)
+pug -w ./dev/pug/index.pug -o ./ -P 	(create compile)

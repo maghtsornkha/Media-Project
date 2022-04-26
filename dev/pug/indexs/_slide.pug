@@ -1,0 +1,21 @@
+.slide-wrapper.container 
+    .slide-card
+        .slide-body 
+            img(src="./assets/images/1.jpg")
+        .slide-caption 
+            each ind in [0,1,2,3,4]
+                input(type="radio" name="slideradios" id=`slideradio${ind}`)
+        .slide-footer 
+                p ခဲနဲ့ ပေါက်တာကို ကျည်အစစ်နဲ့ မှန်အောင်ပစ်တာတော့ မဖြစ်သင့်ဘူး
+
+    .aside-wrapper 
+        .aside-nav 
+            button လူမှုဘဝ 
+            button More +
+        .aside-body 
+            figure 
+                +image("2.jpg","Slide 2 Image")
+                figcaption ရှမ်းပြည်နယ်တွင် RCSS နှင့် SSPP တို့ ချစ်တင်းနှော
+
+            p. 
+                မြန်မာနိုင်ငံက ပဋိပက္ခတွေ ကူညီဖြေရှင်းပေးဖို့ ASEAN ကချမှတ်ထားတဲ့ အချက် ၅ ချက် ကို မြန်မာ အာဏာသိမ်း စစ်ကောင်စီက ပူးပေါင်းဆောင်ရွက်ခြင်း မရှိတဲ့အတွက် အခြေ အနေတွေ တိုးတက်လာခြင်း မရှိဘူးလို့ ပြင်သစ် အစိုးရက ပြစ်တင်ဝေဖန်လိုက်ပါတယ်။
